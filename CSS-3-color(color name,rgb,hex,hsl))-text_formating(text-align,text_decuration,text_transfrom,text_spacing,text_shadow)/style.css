@@ -1,0 +1,35 @@
+h1{
+    color: white;
+    background-color:rgb(69, 69, 245) ;
+    text-align: center;
+    text-transform:capitalize;
+    text-decoration: overline;
+    letter-spacing: 5px;
+    text-shadow: 3px 5px rgb(255, 8, 0);
+    
+    
+}
+h2{
+   color: yellowgreen;
+   background-color: rgb(228, 32, 32);
+   text-align: left;
+   text-transform:uppercase;
+   word-spacing: 7px;
+   text-decoration: underline;
+   
+}
+h3{
+   color: blueviolet;
+   background-color: black;
+   text-align: right;
+   text-decoration: line-through;
+   text-transform: lowercase;
+   
+}
+
+p{
+    color:  #000f0f;
+    background-color:hsl(181, 100%, 50%);
+    line-height: 30px;
+    
+}
