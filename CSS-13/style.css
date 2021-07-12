@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background: blue;
+}
+.menu ul{
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.menu ul li:first-child a{
+    border-left: 1px solid  white;
+}
+.menu ul li a{
+    color: white;
+    padding: 20px 30px;
+    display: block;
+    border-right: 1px solid  white;
+    text-decoration: none;
+}
+/*.menu ul li a:hover{
+    background-color: rgb(21, 218, 208);
+}*/
+/*dropdown*/
+.menu ul li{
+    position: relative;
+}
+.menu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 200px;
+    background-color: blue;
+    transition: .4s;
+    
+
+}
+.menu ul li ul li{
+    display:block;
+    margin-left: 0;
+}
+.menu ul li ul li a{
+    display:block;
+    border-top: 1px solid white;
+}
+.menu ul ul li:first-child a{
+    border-left: none;
+}
+
+/*hover part */
+.menu ul li ul{
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+.menu ul li:hover ul{
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+.menu ul li:hover > a{
+    background-color: rgb(21, 218, 208);
+}
+
+/*icon*/
+.iconlist ul{
+    text-align: center;
+    
+}
+.iconlist ul li{
+    display: inline-block;
+}
+.iconlist ul li a{
+    margin: 30px 20px;
+  display: inline-block;
+  padding: 20px;
+  height: 30px;
+  width: 30px;
+  background: blue;
+  color: white;
+  line-height: 30px;
+  border-radius: 100%;
+
+}
+
+/**list item*/
+.typelist{
+    margin: 5px 30px;
+}
+ul{
+    color:blueviolet;
+}
+ol{
+    color:rgb(66, 128, 5);
+}
+
+.list li{
+    list-style-image: url(clock.png);
+    color:  crimson;
+ 
+}
