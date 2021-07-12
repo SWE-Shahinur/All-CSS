@@ -1,0 +1,58 @@
+/*full jaiga jure thakle block,full jaiga jure na thakle inline(onno k boste dibe)*/
+*{
+    text-align: center;
+}
+
+.main-menu li{
+    display:inline-block;
+    margin: -4px;
+}
+.main-menu li a{
+    padding: 20px 50px ;
+    display: inline-block;
+    color: black;
+}
+.main-menu li a:hover{
+    background-color: red;
+    transition: 1s;
+}
+
+h2{
+    background-color: rgb(28, 28, 199);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 5px;
+}
+
+
+p{
+    background-color: rgb(100, 12, 182);
+    color: white;
+}
+ul{
+    background-color: cadetblue;
+    list-style: none;
+
+}
+b{
+    background-color: chartreuse;
+}
+u{
+    background-color: chocolate;
+}
+i{
+    background-color: crimson;
+}
+small{
+    background-color: cyan;
+}
+mark{
+    background-color: darkorchid;
+}
+.div{
+    background-color: darkseagreen;
+}
+a{
+    background-color: deepskyblue;
+    
+}
