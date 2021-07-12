@@ -1,0 +1,153 @@
+h2{
+    color: rgb(88, 88, 224);
+    text-align: center;
+    font-weight: 30px;
+
+}
+
+h2::before{
+    content: "First-";
+    color: blue;
+}
+h2::after{
+    content: "-last";
+    color: blue;
+}
+
+h3{
+    color: crimson;
+    text-align: center;
+    font-size: 25px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+p::before{
+    content: '"';
+    
+}
+p::after{
+    content: '"';
+}
+.button{
+    text-align: center;
+    margin-top: 40px;
+}
+.click-class{
+    background: blue;
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+.click-class::before{
+    content: "";
+    height: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: red;
+    border-radius:5px;
+    z-index: -1;
+    transition: 0.5s;
+}
+.click-class:hover::before{
+    height: 100%;
+}
+
+.click-class1{
+    background: blue;
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+.click-class1::before{
+    content: "";
+    height: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: red;
+    border-radius:5px;
+    z-index: -1;
+    transition: 0.5s;
+}
+.click-class1:hover::before{
+    height: 100%;
+}
+
+.click-class2{
+    background: blue;
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+.click-class2::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: red;
+    border-radius:5px;
+    z-index: -1;
+    transition: 0.5s;
+}
+.click-class2:hover::before{
+    width: 100%;
+}
+
+.click-class3{
+    background: blue;
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+.click-class3::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    border-radius:5px;
+    z-index: -1;
+    transition: 0.5s;
+}
+.click-class3:hover::before{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-size: 20px;
+}
+li::before{
+    display: inline-block;
+    margin-right: 10px;
+    content: '\f005';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 500;
+    color:red;
+}
