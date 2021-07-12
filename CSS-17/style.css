@@ -1,0 +1,118 @@
+.header{
+    background-color: #007bff;
+}
+.heder-logo h2 a{
+    color: white;
+    font-size: 29px;
+    line-height: 61px;
+    text-decoration: none;
+}
+.menu{}
+.menu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    color: white;
+    padding: 0 24px;
+    line-height: 68px;
+    margin-bottom: 0;
+    font-size: 16px;
+    border-right: 1px solid white;
+    text-decoration: none;
+}
+/*baner*/
+.baner{
+    background: url('img/baner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 210px 0;
+}
+.baner-text{}
+.baner-text h2{
+    display: inline;
+    background: rgb(111, 108, 108);
+    color: white;
+    padding: 6px;
+    font-size: 22px;
+    border-radius: 3px;
+}
+.baner-text h1{
+    background: #5ba3f0;
+    color: white;
+    max-width: 316px;
+    margin: auto;
+    margin-top: 23px;
+    padding: 7px;
+    font-size: 26px;
+    border-radius: 4px;
+}
+
+/*about*/
+.about{
+    background: #e5e1de;
+}
+/*service*/
+.card{
+    display: inline-block;
+}
+.serivce span{
+    background: rgb(72 72 230);
+    display: inline-block;
+    padding: 10px 21px;
+    color: white;
+    font-size: 27px;
+    border-radius: 22px 0 26px 0;
+    margin-top: 24px
+}
+.serivce h3{
+    font-size: 26px;
+    margin-top: 15px;
+}
+
+/*blog*/
+img{
+    max-width: 100%;
+}
+.blog-right h2{
+    font-size: 28px;
+}
+.blog-right ul{
+    list-style: none;
+}
+.blog-right ul li{
+    margin-top: 13px;
+    background: #e4e4e4;
+    padding: 7px;
+    font-size: 15px;
+}
+
+/*foter*/
+.foter{
+    background: rgb(126, 122, 122);
+    color: white;
+}
+.foter p{
+    line-height: 49px;
+    margin-bottom: 0;
+}
+.foter-menu{}
+.foter-menu ul{
+    display: inline-block;
+    margin-bottom: 0;
+}
+.foter-menu ul li{
+    display: inline-block;
+}
+.foter-menu ul li a{
+    color:white;
+    line-height: 48px;
+    margin-right: 24px;
+    font-size: 18px;
+}
+
+
