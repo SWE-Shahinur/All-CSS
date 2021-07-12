@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: opx;
+}
+.menu{
+    background:#1c83fc ;
+}
+
+.website{
+    text-align: center;
+    color: white;
+    width: 1024px;
+    margin: 3px auto;
+    box-shadow: 1px 1px 5px rgb(252, 109, 109);
+}
+.container{
+    background-color:#778beb;
+    padding: 20px;
+}
+.fotter{
+    background-color: #596275;
+    padding: 20px;
+
+}
+.fotterbotom{
+    background-color:#303952 ;
+    padding: 20px;
+}
+img{
+    width: 100%;
+    margin-bottom: -5px;
+    height: 300px;
+}
+
+.op{
+    padding: 15px 0;
+}
+.opx{
+    padding:28px 0 ;
+}
