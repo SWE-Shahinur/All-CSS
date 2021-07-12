@@ -1,0 +1,19 @@
+h1{
+    color:rgb(244, 244, 248) ;
+    background-color: blue;
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    border: 3px;
+    border-color: black;
+    border-style: dotted;
+
+}
+p{
+    color: rgb(5, 5, 5);
+    background-color: chartreuse;
+    padding:20px 10px;
+    margin-top: 20px;
+    border: 4px double brown;
+}
